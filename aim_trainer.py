@@ -1,4 +1,4 @@
-#imports
+ p#imports
 import time
 from random import randint
 from math import sqrt
@@ -86,7 +86,7 @@ TARGET_RADIUS = 16
 MARKERS_RADIUS = 15
 
 #load images
-directory = os.path.dirname('C:\\Users\\moham\\Dropbox\\My PC (LAPTOP-NODFI3I4)\\Desktop\\Random\\Random Python files\\Aim Trainer\\')
+directory = os.path.dirname('enter path of images here')
 target = pygame.image.load(os.path.join(directory, "target.jpg"))
 hitmarker = pygame.image.load(os.path.join(directory, "hitmarker.jpg"))
 missmarker = pygame.image.load(os.path.join(directory, "missmarker.jpg"))
