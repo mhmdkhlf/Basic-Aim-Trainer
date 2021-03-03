@@ -1,4 +1,4 @@
- p#imports
+#imports
 import time
 from random import randint
 from math import sqrt
