@@ -94,7 +94,7 @@ missmarker = pygame.image.load(os.path.join(directory, "missmarker.jpg"))
 #setup display
 WIDTH, HEIGHT = 800, 600
 window = pygame.display.set_mode((WIDTH, HEIGHT))
-pygame.display.set_caption("My Aim Ttainer")
+pygame.display.set_caption("My Aim Trainer")
 
 # setup for main loop
 FPS = 60
