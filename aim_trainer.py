@@ -99,9 +99,7 @@ pygame.display.set_caption("My Aim Trainer")
 # setup for main loop
 FPS = 60
 clock = pygame.time.Clock()
-start_time = pygame.time.get_ticks()
 NUM_OF_HITS = -1
-pygame.event.clear()
 pygame.mouse.set_pos([WIDTH // 2, HEIGHT // 2])
 X = WIDTH // 2-TARGET_RADIUS+1
 Y = HEIGHT // 2-TARGET_RADIUS
