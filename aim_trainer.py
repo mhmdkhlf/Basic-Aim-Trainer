@@ -86,7 +86,7 @@ TARGET_RADIUS = 16
 MARKERS_RADIUS = 15
 
 #load images
-directory = os.path.dirname('Images//')
+directory = os.path.dirname(('Images' + os.path.sep))
 target = pygame.image.load(os.path.join(directory, "target.jpg"))
 hitmarker = pygame.image.load(os.path.join(directory, "hitmarker.jpg"))
 missmarker = pygame.image.load(os.path.join(directory, "missmarker.jpg"))
