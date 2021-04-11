@@ -150,5 +150,3 @@ while True:
                 start_time = time.time()
                 end_game = False
                 pygame.time.wait(1000)
-
-### END GAME & MAIN LOOP###
